@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech To Text Generate</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">speech to text generate app</h1>
+
+        <!-- button box  -->
+        <div class="btn_box">
+            <button id="startBtn">conversation start</button>
+            <button id="endBtn">conversation end</button>
+        </div>
+
+        <!-- language select box  -->
+        <div>
+            <select id="lang">
+                <option value="en-US">United States</option>
+                <option value="es-ES">Spanish</option>
+                <option value="fr-FR">French</option>
+                <option value="de-DE">German</option>
+                <option value="it-IT">Italian</option>
+                <option value="ru-RU">Russian</option>
+                <option value="zh-ZN">Chinese</option>
+                <option value="ja-JP">Japanese</option>
+                <option value="ar-SA">Saudi Arabia</option>
+                <option value="bn-BD">Bengali</option>
+            </select>
+        </div>
+
+        <!-- textarea  -->
+        <div>
+            <textarea id="output" placeholder="Speech To Text Wright...."></textarea>
+        </div>
+
+        <!-- character length  -->
+        <p><span id="character">0</span> character length</p>
+    </div>
+    
+</body>
+<script src="js/speech.js"></script>
+</html>
